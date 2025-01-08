@@ -16,7 +16,7 @@
         <a href="#sobre">Sobre</a>
         <a href="#educacao">Educação</a>
         <a href="#experiencia">Experiência</a>
-        <a href="#contacto">Contacto</a>
+        <a href="contacto.html">Contacto</a>
       </nav>
     </header>
     <main>
@@ -25,22 +25,59 @@
       <section id="sobre">
         <h2>Sobre</h2>
         <p>Descrição sobre mim.</p>
+        <h3>Vídeo de Apresentação</h3>
+        <video width="100%" controls style="max-width: 40%" loop>
+          <source src="./video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <h3>Vídeo de Candidatura</h3>
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/-MPvsxsH5c8"
+          title="YouTube video player"
+          frameborder="0"
+          style="max-width: 40%"
+          allowfullscreen
+        >
+        </iframe>
       </section>
       <section id="educacao">
         <h2>Educação</h2>
-        <div>Curso 1</div>
-        <div>Curso 2</div>
-        <div>Curso 3</div>
+        <ul>
+          <li>Curso 1</li>
+          <li>Curso 2</li>
+          <li>Curso 3</li>
+        </ul>
       </section>
       <section id="experiencia">
         <h2>Experiência</h2>
-        <div>Empresa 1</div>
-        <div>Empresa 2</div>
-        <div>Empresa 3</div>
-      </section>
-      <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Email: jbritodev@gmail.com</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Empresa</th>
+              <th>Localização</th>
+              <th>Duração</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Empresa 1</td>
+              <td>Localização 1</td>
+              <td>Duração 1</td>
+            </tr>
+            <tr>
+              <td>Empresa 2</td>
+              <td>Localização 2</td>
+              <td>Duração 2</td>
+            </tr>
+            <tr>
+              <td>Empresa 3</td>
+              <td>Localização 3</td>
+              <td>Duração 3</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </main>
     <footer>
@@ -50,8 +87,9 @@
         <a href="#sobre">Sobre</a>
         <a href="#educacao">Educação</a>
         <a href="#experiencia">Experiência</a>
-        <a href="#contacto">Contacto</a>
+        <a href="contacto.html">Contacto</a>
       </div>
+      <p>Email: jbritodev@gmail.com</p>
     </footer>
   </body>
 </html>
