@@ -7,78 +7,53 @@
     <meta name="description" content="Portfolio de Nome Apelido" />
     <meta name="keywords" content="Nome, Apelido, Portfolio" />
     <meta name="author" content="Nome Apelido" />
-    <link rel="icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <a href="index.html">Nome Apelido</a>
-      <nav>
-        <a href="sobre.html">Sobre</a>
-        <a href="educacao.html">Educação</a>
-        <a href="experiencia.html">Experiência</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
+      <div class="container">
+        <div class="navbar">
+          <a class="home-button" href="index.html">
+            <img src="images/logo-small.svg" alt="Logotipo" />
+          </a>
+          <nav>
+            <a href="sobre.html">Sobre</a>
+            <a href="educacao.html">Educação</a>
+            <a href="experiencia.html">Experiência</a>
+            <a href="contacto.html">Contacto</a>
+          </nav>
+        </div>
+      </div>
     </header>
-    <main>
-      <h1>Portfolio de Nome Apelido</h1>
-      <img src="./avatar.png" alt="Avatar de Nome Apelido" />
-      <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Descrição sobre mim.</p>
-        <h3>Vídeo de Apresentação</h3>
-        <video width="100%" controls style="max-width: 40%" loop>
-          <source src="./video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </section>
-      <section id="educacao">
-        <h2>Educação</h2>
-        <ul>
-          <li>Curso 1</li>
-          <li>Curso 2</li>
-          <li>Curso 3</li>
-        </ul>
-      </section>
-      <section id="experiencia">
-        <h2>Experiência</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Empresa</th>
-              <th>Localização</th>
-              <th>Duração</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Empresa 1</td>
-              <td>Localização 1</td>
-              <td>Duração 1</td>
-            </tr>
-            <tr>
-              <td>Empresa 2</td>
-              <td>Localização 2</td>
-              <td>Duração 2</td>
-            </tr>
-            <tr>
-              <td>Empresa 3</td>
-              <td>Localização 3</td>
-              <td>Duração 3</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+    <main class="container">
+      <div class="banner">
+        <h1>Portfolio de Nome Apelido</h1>
+        <img src="images/avatar.png" alt="Avatar de Nome Apelido" />
+      </div>
     </main>
     <footer>
-      <p>© 2025 Nome Apelido</p>
-      <div id="quick-links">
-        <a href="index.html">Home</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#educacao">Educação</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="contacto.html">Contacto</a>
+      <div class="container">
+        <div class="quick-links">
+          <a href="index.html">Home</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#educacao">Educação</a>
+          <a href="#experiencia">Experiência</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="footer-info">
+          <div>© 2025 Nome Apelido</div>
+          <div>
+            <a href="mailto:jbritodev@gmail.com">jbritodev@gmail.com</a>
+          </div>
+        </div>
       </div>
-      <p>Email: <a href="mailto:jbritodev@gmail.com">jbritodev@gmail.com</a></p>
     </footer>
   </body>
 </html>
