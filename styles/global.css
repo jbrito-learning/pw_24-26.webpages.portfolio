@@ -1,6 +1,5 @@
 * {
 }
-
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -75,6 +74,8 @@ header {
 .banner h1 {
   margin: 0;
   font-size: 80px;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .banner img {

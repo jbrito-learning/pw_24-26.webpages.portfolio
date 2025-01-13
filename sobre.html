@@ -14,7 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/about.css" />
   </head>
   <body>
     <header>
@@ -32,26 +33,91 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container about-main">
+      <div class="banner">
+        <h1>Sobre</h1>
+      </div>
       <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Descrição sobre mim.</p>
-        <h3>Vídeo de Apresentação</h3>
-        <video width="100%" controls style="max-width: 40%" loop>
-          <source src="./video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <h3>Vídeo de Candidatura</h3>
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/-MPvsxsH5c8"
-          title="YouTube video player"
-          frameborder="0"
-          style="max-width: 40%"
-          allowfullscreen
-        >
-        </iframe>
+        <div class="about">
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <img src="images/face.png" alt="Avatar de Nome Apelido" />
+        </div>
+      </section>
+      <section class="technologies">
+        <h2>Tecnologias</h2>
+        <div class="tech-grid">
+          <a
+            class="tech"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+            />
+            <p>HTML</p>
+          </a>
+          <a
+            class="tech"
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+            />
+            <p>CSS</p>
+          </a>
+          <a
+            class="tech"
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            />
+            <p>JavaScript</p>
+          </a>
+          <a
+            class="tech"
+            href="https://www.typescriptlang.org/docs/"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+            />
+            <p>TypeScript</p>
+          </a>
+          <a class="tech" href="https://react.dev/" target="_blank">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            />
+            <p>React</p>
+          </a>
+          <a class="tech" href="https://nextjs.org/" target="_blank">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+            />
+            <p>Next.js</p>
+          </a>
+        </div>
       </section>
     </main>
     <footer>

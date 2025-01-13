@@ -1,0 +1,45 @@
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.edu-item {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.edu-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+  background-color: darkgray;
+}
+
+.edu-item img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.edu-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.edu-item-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.edu-item-date {
+  font-size: 18px;
+}
